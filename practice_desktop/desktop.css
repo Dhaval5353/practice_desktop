@@ -1,0 +1,208 @@
+body{
+    display: grid;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1263px;
+    grid-template-rows: 40px 82px;
+}
+
+.shop-sign{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(233, 231, 231);
+}
+
+.logo-num{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar{
+    display: grid;
+    justify-content: center;
+}
+
+.navbar ul{
+    display: grid;
+    grid-template-columns: repeat(8,80px) 125px;
+    grid-template-rows: 30px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar button{
+    background-color: rgb(255, 136, 0);
+    border-style: none;
+    padding: 5px;
+}
+
+.head-form{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 231, 231);
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 100px 50px 100px 50px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.head button{
+    background-color: rgb(255, 136, 0);
+    border-style: none;
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 50px 50px 100px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg{
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 1/3;
+    justify-content: center;
+}
+
+#msg input{
+    width: 360px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.form-1{
+    display: grid;
+    justify-content: center;
+}
+.form-1 input{
+    width: 170px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+#form-button{
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/3;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+#form-button button{
+    width: 365px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 600px 200px;
+    grid-template-rows: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 177, 255);
+}
+
+#left-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
+    color: white;
+}
+
+#right-content{
+    margin: auto;
+}
+
+#right-content button{
+    font-size: 20px;
+    background-color: white;
+    color: rgb(9, 177, 255);
+    padding: 10px;
+    font-weight: 600;
+    border-style: none;
+}
+
+.video{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 231, 231);
+}
+
+.left-video img{
+    width: 400px;
+    height: 230px;
+}
+
+.video-content{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 50px 30px 70px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-content button{
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(255, 136, 0);
+    border-style: none;
+    color: white;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 266px 266px 266px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-rows: 168px 30px 126px;
+}
+
+
